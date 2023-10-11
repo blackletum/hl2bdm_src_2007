@@ -1,0 +1,28 @@
+﻿Build started 1/16/2012 6:37:34 PM.
+     1>Project "C:\Documents and Settings\Michael\My Documents\hl2bdm\src\game\client\client_hl2mp-2005.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug_hl2mp\Client HL2MP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Documents and Settings\Michael\My Documents\hl2bdm\src\game\client\.\Debug_hl2mp\Client HL2MP.dll) does not match the Linker's OutputFile property value (C:\Documents and Settings\Michael\My Documents\hl2bdm\src\game\client\Debug_hl2mp\Client.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Client HL2MP) does not match the Linker's OutputFile property value (Client). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         client_hl2mp-2005.vcxproj -> C:\Documents and Settings\Michael\My Documents\hl2bdm\src\game\client\.\Debug_hl2mp\Client HL2MP.dll
+       CustomBuildStep:
+         Description: Copying to c:\program files\steam\steamapps\SourceMods\hl2bdm\bin\
+         if exist "c:\program files\steam\steamapps\SourceMods\hl2bdm\bin\client.dll" attrib -r "c:\program files\steam\steamapps\SourceMods\hl2bdm\bin\client.dll"
+         copy "C:\Documents and Settings\Michael\My Documents\hl2bdm\src\game\client\Debug_hl2mp\"client.dll "c:\program files\steam\steamapps\SourceMods\hl2bdm\bin"
+         
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file ".\Debug_hl2mp\Client HL2MP.unsuccessfulbuild".
+         Touching ".\Debug_hl2mp\Client HL2MP.lastbuildstate".
+     1>Done Building Project "C:\Documents and Settings\Michael\My Documents\hl2bdm\src\game\client\client_hl2mp-2005.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.76
